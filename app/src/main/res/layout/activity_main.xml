@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ULTRA SOUND BOOSTER"
+        android:textColor="#FF3D00"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Studio Quality &amp; Volume Enhancer"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp" />
+
+    <Switch
+        android:id="@+id/switchBooster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#1E1E1E"
+        android:padding="16dp"
+        android:text="Enable Ultra Sound Engine"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBoostLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Volume Boost: 0%"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarBoost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/tvBassLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Deep Bass: 0%"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarBass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:max="1000"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/tvVirtualizerLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="3D Surround Clarity: 0%"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarVirtualizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:max="1000"
+        android:progress="0" />
+
+    <Button
+        android:id="@+id/btnUltraPreset"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#FF3D00"
+        android:text="Apply Ultra HD Sound Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
